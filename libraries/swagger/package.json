@@ -5,7 +5,7 @@
     "private": true,
     "author": "",
     "devDependencies": {
-        "@microsoft.azure/autorest.python": "^4.0.67",
+        "@microsoft.azure/autorest.python": "^4.0.73",
         "autorest": "^3.0.5165",
         "replace": "^1.0.0"
     },
