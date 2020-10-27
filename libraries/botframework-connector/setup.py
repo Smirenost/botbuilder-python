@@ -26,7 +26,8 @@ setup(
     description="Microsoft Bot Framework Bot Builder SDK for Python.",
     author="Microsoft",
     url="https://www.github.com/Microsoft/botbuilder-python",
-    keywords=["BotFrameworkConnector", "bots", "ai", "botframework", "botbuilder"],
+    keywords=["BotFrameworkConnector", "bots",
+              "ai", "botframework", "botbuilder"],
     install_requires=REQUIRES,
     packages=[
         "botframework.connector",
