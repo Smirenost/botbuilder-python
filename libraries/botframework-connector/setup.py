@@ -5,7 +5,8 @@ import os
 from setuptools import setup
 
 NAME = "botframework-connector"
-VERSION = os.environ["packageVersion"] if "packageVersion" in os.environ else "4.10.0"
+VERSION = os.environ[
+    "packageVersion"] if "packageVersion" in os.environ else "4.10.0"
 REQUIRES = [
     "msrest==0.6.10",
     "requests==2.23.0",
@@ -27,7 +28,9 @@ setup(
     description="Microsoft Bot Framework Bot Builder SDK for Python.",
     author="Microsoft",
     url="https://www.github.com/Microsoft/botbuilder-python",
-    keywords=["BotFrameworkConnector", "bots", "ai", "botframework", "botbuilder"],
+    keywords=[
+        "BotFrameworkConnector", "bots", "ai", "botframework", "botbuilder"
+    ],
     install_requires=REQUIRES,
     packages=[
         "botframework.connector",
